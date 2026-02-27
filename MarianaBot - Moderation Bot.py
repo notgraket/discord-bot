@@ -3,7 +3,7 @@
 # Created: 12-27-2021
 # Last Updated: 12-28-2021
 
-# Invite Link: https://discord.com/api/oauth2/authorize?client_id=925109874327699466&permissions=8&scope=bot
+# Invite Link: 
 
 import time
 import requests # For API calls
@@ -225,4 +225,5 @@ async def on_message(message):
     await client.process_commands(message)
 
 # Start
+
 client.run(TOKEN)
