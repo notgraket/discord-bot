@@ -57,8 +57,8 @@ intents.members = True
 TOKEN = ''
 client = commands.Bot(command_prefix = ">", intents=intents)
 
-zoo = 710630468197941324
-bottesting = 730289548122390529
+zoo = 0
+bottesting = 0
 
 client.channel_id = None
 
@@ -227,3 +227,4 @@ async def on_message(message):
 # Start
 
 client.run(TOKEN)
+
